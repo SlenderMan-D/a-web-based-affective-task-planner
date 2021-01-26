@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Task Planner
 ============================
 
@@ -102,3 +103,7 @@ about modify tomorrow's plan.
 
 
 
+=======
+# a-web-based-affective-task-planner
+University graduate project.  
+>>>>>>> 4b50f083fd9121da2f4b773f7a203f1a34443aa2
