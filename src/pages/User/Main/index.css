@@ -1,0 +1,14 @@
+.header {
+  background-color: #252b33;
+
+}
+
+.header .ant-page-header-heading-title,
+.header .ant-dropdown-link {
+  color: #fff;
+}
+
+.header .header-icon {
+  margin-right: 20px;
+  color: #fff;
+}

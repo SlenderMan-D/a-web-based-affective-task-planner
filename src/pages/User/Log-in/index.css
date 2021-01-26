@@ -1,0 +1,53 @@
+.g-login {
+  display: flex;
+  min-height: 600px;
+  height: 100vh;
+}
+
+.home-img {
+  height: 100%;
+}
+
+.m-content {
+  flex-grow: 1;
+  padding-top: 100px;
+}
+
+.m-form {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px
+}
+
+.form-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.form-item-title {
+  display: inline-block;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.log-in {
+  text-align: center
+}
+
+.m-other {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.err-info {
+  color: #86181d;
+  background-color: #ffdce0;
+  text-align: center;
+  padding: 10px 20px;
+}

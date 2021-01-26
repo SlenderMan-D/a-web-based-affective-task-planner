@@ -1,0 +1,35 @@
+.new-task-modal {
+  width: 600px;
+}
+
+.ant-rate {
+  color: #000;
+}
+
+.feel {
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin-right: 30px; */
+  margin-top: 20px;
+}
+
+.feel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frown {
+  color: red;
+  font-size: 40px;
+}
+
+.meh {
+  color: #faad14;
+  font-size: 40px
+}
+
+.smile {
+  color: green;
+  font-size: 40px;
+}

@@ -1,0 +1,24 @@
+.site-calendar-demo-card {
+  /* width: 300px; */
+  /* border: 1px solid #f0f0f0;
+  border-radius: 2px; */
+  display: flex;
+  justify-content: center;
+}
+
+.calendar-item {
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  padding: 0 20px;
+  margin: 0 10px;
+}
+
+.calendar-header {
+  text-align: center;
+}
+
+.calendar-grade {
+  height: 15px;
+  width: 15px;
+  margin: 0 auto;
+}

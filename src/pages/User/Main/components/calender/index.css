@@ -1,0 +1,63 @@
+.site-calendar-demo-card {
+  /* width: 300px; */
+  /* border: 1px solid #f0f0f0;
+  border-radius: 2px; */
+  display: flex;
+  justify-content: center;
+}
+
+.ant-fullcalendar-column-header-inner {
+  text-align: center;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-detial-item {
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+.task-detial-item span {
+  width: 100px;
+  text-align: right;
+  font-weight: 600;
+  margin-right: 10px;
+  color: #000
+}
+
+.task-detial-item .frown svg {
+  height: 20px;
+  width: 20px;
+}
+
+.task-detial-item .meh svg {
+  height: 20px;
+  width: 20px;
+}
+
+.task-detial-item .smile svg {
+  height: 20px;
+  width: 20px;
+}
+
+.calendar-item {
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  padding: 0 20px;
+  margin: 0 10px;
+}
+
+.calendar-header {
+  text-align: center;
+}
+
+.calendar-grade {
+  height: 15px;
+  width: 15px;
+  margin: 0 auto;
+}
+
+.ant-fullcalendar-header .ant-radio-group{ display:none }

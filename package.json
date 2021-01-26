@@ -1,0 +1,45 @@
+{
+  "name": "task-planner",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.25.3",
+    "axios": "^0.19.1",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.7",
+    "pm2": "^4.2.3",
+    "ramda": "^0.27.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "server": "pm2 start server/app.js -i max",
+    "stop": "pm2 stop all",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
